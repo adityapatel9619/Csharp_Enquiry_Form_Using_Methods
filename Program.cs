@@ -60,12 +60,12 @@ namespace entry
             Console.WriteLine("\n");
             Console.WriteLine("*******Invoice*******");
             for (i = 0; i <n; i++) { 
-            Console.WriteLine(name);
-            Console.WriteLine(fathername);
-            Console.WriteLine(mothername);
-            Console.WriteLine(email);
-            Console.WriteLine(phone);
-            Console.WriteLine(course);
+            Console.WriteLine("Student Name:{0}",name);
+            Console.WriteLine("Father Name:{0}", fathername);
+            Console.WriteLine("Mother Name:{0}", mothername);
+            Console.WriteLine("Email Id:{0}", email);
+            Console.WriteLine("Contact No:{0}", phone);
+            Console.WriteLine("Course for Enquiry:{0}", course);
                 Console.WriteLine("");
                 Console.WriteLine("Thanks! We will Contact You Soon ");
                
